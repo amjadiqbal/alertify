@@ -1,0 +1,42 @@
+{
+    "name": "amjadiqbal/alertify",
+    "type": "library",
+    "description": "A BEAUTIFUL, RESPONSIVE, CUSTOMIZABLE, ACCESSIBLE (WAI-ARIA) REPLACEMENT FOR JAVASCRIPT'S POPUP BOXES , AVAILABLE FOR LARAVEL PROJECTS.",
+    "keywords": ["laravel" ,"alertify", "alertify-js" , "sweetalert2" , "sweetalert" ,"alert" , "notifier" , "toast"  , "sweet" , "POPUP BOXES"],
+    "homepage": "https://github.com/amjadiqbal/alertify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amjad Iqbal",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "support": {
+        "chat" : "https://gitter.im/AmjadIqbal/laravel-AlertifyJS",
+        "issues": "https://github.com/AmjadIqbal/alertify-js/issues",
+        "source": "https://github.com/AmjadIqbal/alertify-js",
+        "docs"  : "https://amjadiqbal.github.io/alertify-js/"
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "~5.4.0|~5.8.0|~5.9.0|^6.0"
+    },
+    "require-dev": {
+        "symfony/thanks": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmjadIqbal\\Alertify\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmjadIqbal\\Alertify\\Providers\\AlertifyServiceProvider"
+            ]
+        }
+    }
+}
