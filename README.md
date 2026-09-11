@@ -172,3 +172,7 @@ The Alertify package is open-sourced software licensed under the [MIT license](h
 - [Amjad Iqbal](https://github.com/AmjadIqbal)
 - [AlertifyJS](http://alertifyjs.com/)
         
+
+## Author
+
+**Amjad Iqbal** — [amjad.com.pk](https://amjad.com.pk) · [hi@amjad.com.pk](mailto:hi@amjad.com.pk) · [GitHub](https://github.com/AmjadIqbal)
